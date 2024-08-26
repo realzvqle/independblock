@@ -2,4 +2,4 @@ MakeFile
 *.exe
 CMakeCache.txt
 *.cmake
-CMakeFiles\
+CMakeFiles/
