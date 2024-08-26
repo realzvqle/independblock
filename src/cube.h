@@ -10,8 +10,7 @@
 
 
 
-void draw_cube(float size, vector3 pos, vector3 rotation);
-
+void draw_cube(float size, vector3 pos, vector3 rotation, bool isLines);
 
 
 

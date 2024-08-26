@@ -17,10 +17,18 @@ target_link_libraries(iblock
 )
 
 target_compile_options(iblock PRIVATE
+    -mwindows
     -O2
     -D_WIN32_WINNT=0x0600
     -DWINVER=0x0600
     -DPSAPI_VERSION=1
+    -mwindows
+)
+
+add_custom_command(
+    TARGET iblock
+    POST_BUILD
+    COMMAND iblock
 )
 
 
